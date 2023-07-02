@@ -1,0 +1,25 @@
+.title{
+    display:flex;
+    justify-content: center;
+    background: lightgrey;
+    font-family: 'Brush Script MT';
+    max-width: 1000px;
+    border: 5px solid black;
+}
+
+.thebody{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.theimage img{
+    max-width: 600px;
+    margin: 5em;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+body{
+    background: linear-gradient(to right, #8360c3, #2ebf91);
+}
