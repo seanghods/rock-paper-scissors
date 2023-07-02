@@ -27,3 +27,19 @@ align-items: center;
 body{
     background: linear-gradient(to right, #8360c3, #2ebf91);
 }
+
+.container2{
+    display:flex;
+    justify-content: center;
+}
+
+.footer{
+    display:flex;
+    flex:1;
+    justify-content: center;
+    background: lightgrey;
+    font-family: 'Brush Script MT';
+    max-width: 400px;
+    border: 5px solid black;
+    font-size:20px;
+}
