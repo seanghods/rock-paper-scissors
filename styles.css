@@ -1,3 +1,6 @@
+body{
+    background: linear-gradient(to right, #8360c3, #2ebf91);
+}
 .container{
     display:flex;
     justify-content: center;
@@ -11,28 +14,42 @@
     max-width: 1000px;
     border: 5px solid black;
 }
-.thebody{
-display: flex;
-justify-content: center;
-align-items: center;
+.buttoncontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8em;
+    margin: 3em;
+    padding: 3em;
+}
+.scorecontainer{
+    display:flex;
+    justify-content: center;
+    gap: 8em;
+}
+.scoresection, .scoremessage{
+    text-align:center;
 }
 
+/* RPS Pic */
 .theimage img{
     max-width: 600px;
-    margin: 5em;
+    margin: 2em;
     border: 3px solid black;
     border-radius: 5px;
 }
-
-body{
-    background: linear-gradient(to right, #8360c3, #2ebf91);
+.rpspicsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.container2{
+
+/* .container2{
     display:flex;
     justify-content: center;
-}
-
+} */
+/* 
 .footer{
     display:flex;
     flex:1;
@@ -42,4 +59,4 @@ body{
     max-width: 400px;
     border: 5px solid black;
     font-size:20px;
-}
+} */
