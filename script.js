@@ -6,7 +6,7 @@ const computerScoreCounter = document.querySelector('.computerscore');
 const scoreMessage = document.querySelector('h3');
 let computerSelection;
 let playerSelection;
-let playerScore = 0
+let playerScore = 0 
 let computerScore = 0
    
    

@@ -31,6 +31,20 @@ body{
     text-align:center;
 }
 
+.buttoncontainer img {
+    width: 10vw;
+    height: 10vw;
+}
+
+button {
+    background: linear-gradient(to right, #8360c3, #2ebf91);
+}
+
+p {
+    font-family: 'Brush Script MT';
+    font-size: 30px;
+    font-weight: bold;
+}
 /* RPS Pic */
 .theimage img{
     max-width: 600px;
@@ -43,7 +57,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-
 
 /* .container2{
     display:flex;
